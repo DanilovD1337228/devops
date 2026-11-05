@@ -1,10 +1,11 @@
 services:
   web:
+    image: hello-nginx:local
     build: .
     ports: 
       - "8080:80/tcp"
   echo:
-    image: hashicorp/http-echo
+    image: hashicorp/http-echo:1.0.0
     command: 
       -text="Привет!"
   db:

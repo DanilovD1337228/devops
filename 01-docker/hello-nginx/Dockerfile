@@ -4,4 +4,4 @@ COPY site/ /usr/share/nginx/html/
 EXPOSE 80
 LABEL org.opencontainers.image.authors="DanilovD"
 LABEL org.opencontainers.image.description="Учебный образ nginx со статической страницей"
-WORKDIR /usr/share/nginx/html
+
